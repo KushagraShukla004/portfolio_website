@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+/************ Custom Font ************/
+@font-face {
+  font-family: Elianto;
+  src: url('./assets/font/Elianto-Regular.ttf');
+}
+@font-face {
+  font-family: Basketball;
+  src: url('./assets/font/Basketball.otf');
+}
+
+@font-face {
+  font-family: Reckoner;
+  src: url('./assets/font/Reckoner.ttf');
+}
+@font-face {
+  font-family: Centra;
+  src: url('./assets/font/CentraNo2-Bold.ttf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: Centra;
+  src: url('./assets/font/CentraNo2-Medium.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: Centra;
+  src: url('./assets/font/CentraNo2-Book.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: SourceCode;
+  src: url('./assets/font/SourceCodePro-Medium.ttf');
+}
+@font-face {
+  font-family: IBM;
+  src: url('./assets/font/3270Condensed-Regular.ttf');
+}
+
+:root {
+  --font-base: 'Centra', sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+
+  --primary-color: #edf2f8;
+  --secondary-color: #313bac;
+  --black-color: #030303;
+  --lightGray-color: #e4e4e4;
+  --gray-color: #6b7688;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+  --dark-theme: #121212;
+  --purple-color: #bb86fc;
+  --purple2-color: #7635ca;
+  --dark-primary: #1f1b24;
+  --teal-color: #03dac5;
+  --teal2-color: #24a799;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
