@@ -9,7 +9,6 @@ import "./Skills.scss";
 const Skills = () => {
   const [experience, setExperience] = useState([]);
   const [skills, setSkills] = useState([]);
-  console.log("experience.year: ", experience.sort(experience.year));
 
   useEffect(() => {
     const query = '*[_type == "experiences"]';
