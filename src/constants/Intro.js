@@ -1,22 +1,22 @@
-import React from 'react';
-import Typical from 'react-typical';
+import React from "react";
+import Typical from "react-typical";
 
 const Intro = () => {
   return (
     <>
-      <p style={{ fontSize: '25px', color: 'white' }}>
-        I am a{' '}
+      <p style={{ fontSize: "25px", color: "white" }}>
+        I am a{" "}
         <Typical
           loop={Infinity}
-          wrapper='b'
+          wrapper="b"
           steps={[
-            'Developer 💻 📱',
+            "Developer 💻 📱",
             1000,
-            'Designer 🎨',
+            "Designer 🎨",
             1000,
-            'Guitarist 🎸(wannabe)',
+            "Guitarist 🎸",
             1000,
-            'Tech Enthusiast',
+            "Tech Enthusiast",
             1000,
           ]}
         />

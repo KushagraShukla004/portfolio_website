@@ -14,9 +14,11 @@
 .app__container {
   width: 100%;
   min-height: 100vh;
+  overflow-x: hidden; /* to hide horizontal overflow */
 
   display: flex;
   flex-direction: row;
+  // border: 5px solid yellow;
 }
 
 .app__flex {
@@ -31,8 +33,9 @@
   flex-direction: column;
   padding: 4rem 2rem;
 
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 757px) {
     padding: 4rem 1rem 2rem;
+    border: 5px solid red;
   }
 }
 
@@ -66,7 +69,7 @@
     font-size: 4rem;
   }
 
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 757px) {
     font-size: 2rem;
   }
 }
@@ -92,7 +95,7 @@
     font-size: 2rem;
   }
 
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 757px) {
     font-size: 0.9rem;
   }
 }
