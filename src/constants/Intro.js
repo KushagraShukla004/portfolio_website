@@ -14,7 +14,7 @@ const Intro = () => {
             1000,
             "Designer 🎨",
             1000,
-            "Tech Enthusiast 🤖",
+            "Tech Enthusiast 🤖🧑‍💻",
             1000,
             "Guitarist 🎸",
             1000,
