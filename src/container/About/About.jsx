@@ -6,7 +6,6 @@ import { urlFor, client } from "../../client";
 
 const About = () => {
   const [abouts, setAbouts] = useState([]);
-  console.log("about: ", abouts);
 
   useEffect(() => {
     const query = '*[_type == "abouts"]';
