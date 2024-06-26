@@ -25,8 +25,12 @@ import circle from "../assets/circle.svg";
 import logo from "../assets/logo2.png";
 
 import resume from "../assets/Kushagra Shukla_Resume.pdf";
+import me_bg_rem from "../assets/me_bg_rem.png";
+import pattern_round from "../assets/pattern_round.png";
 
 export default {
+  me_bg_rem,
+  pattern_round,
   email1,
   cpp,
   css,
