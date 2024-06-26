@@ -1,44 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 /************ Custom Font ************/
 @font-face {
   font-family: Elianto;
-  src: url('./assets/font/Elianto-Regular.ttf');
+  src: url("./assets/font/Elianto-Regular.ttf");
 }
 @font-face {
   font-family: Basketball;
-  src: url('./assets/font/Basketball.otf');
+  src: url("./assets/font/Basketball.otf");
 }
 
 @font-face {
   font-family: Reckoner;
-  src: url('./assets/font/Reckoner.ttf');
+  src: url("./assets/font/Reckoner.ttf");
 }
 @font-face {
   font-family: Centra;
-  src: url('./assets/font/CentraNo2-Bold.ttf');
+  src: url("./assets/font/CentraNo2-Bold.ttf");
   font-weight: 700;
 }
 @font-face {
   font-family: Centra;
-  src: url('./assets/font/CentraNo2-Medium.ttf');
+  src: url("./assets/font/CentraNo2-Medium.ttf");
   font-weight: 500;
 }
 @font-face {
   font-family: Centra;
-  src: url('./assets/font/CentraNo2-Book.ttf');
+  src: url("./assets/font/CentraNo2-Book.ttf");
   font-weight: 400;
 }
 @font-face {
   font-family: SourceCode;
-  src: url('./assets/font/SourceCodePro-Medium.ttf');
+  src: url("./assets/font/SourceCodePro-Medium.ttf");
 }
 @font-face {
   font-family: IBM;
-  src: url('./assets/font/3270Condensed-Regular.ttf');
+  src: url("./assets/font/3270Condensed-Regular.ttf");
 }
 
 :root {
-  --font-base: 'Centra', sans-serif;
+  --font-base: "Centra", sans-serif;
   font-weight: 500;
   font-size: 26px;
 

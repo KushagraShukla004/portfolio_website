@@ -339,6 +339,11 @@
   }
 
   .mail-p-text {
+    display: inline-block;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
     color: var(--gray-color);
   }
 
