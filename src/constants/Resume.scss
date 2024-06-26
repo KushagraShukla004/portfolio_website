@@ -1,0 +1,27 @@
+button {
+  max-width: max-content;
+  font-family: var(--font-base);
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--purple-color);
+  color: var(--white-color);
+  outline: none;
+  margin: 2rem 0 0 0;
+  transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  cursor: pointer;
+  font-size: 1rem;
+
+  &:hover {
+    background-color: #7635ca;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 0.9rem;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 0.8rem;
+  }
+}
