@@ -46,9 +46,4 @@ const About = () => {
   );
 };
 
-export default AppWrap(
-  MotionWrap(About, "app__about"),
-  "about",
-  // 'app__whitebg'
-  "app__Primary-darkmode"
-);
+export default AppWrap(MotionWrap(About, "app__about"), "about", "app__Primary-darkmode");
