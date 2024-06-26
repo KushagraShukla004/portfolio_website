@@ -67,7 +67,7 @@
     font-size: 4rem;
   }
 
-  @media screen and (max-width: 757px) {
+  @media screen and (max-width: 450px) {
     font-size: 2rem;
   }
 }
@@ -93,7 +93,7 @@
     font-size: 2rem;
   }
 
-  @media screen and (max-width: 757px) {
+  @media screen and (max-width: 450px) {
     font-size: 0.9rem;
   }
 }
@@ -134,18 +134,6 @@
         color: var(--white-color);
       }
     }
-
-    @media screen and (min-width: 2000px) {
-      width: 70px;
-      height: 70px;
-
-      margin: 0.5rem 0;
-
-      svg {
-        width: 30px;
-        height: 30px;
-      }
-    }
   }
 }
 
@@ -169,15 +157,9 @@
     &:hover {
       background-color: var(--purple2-color);
     }
-
-    @media screen and (min-width: 2000px) {
-      width: 20px;
-      height: 20px;
-    }
   }
 }
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .app__navigation,
   .app__social {
     display: none;
@@ -212,52 +194,12 @@
   }
   //Social Links button
   .app__social {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-
-    padding: 1rem;
-
-    div {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background-color: var(--white-color);
-      margin: 0.25rem 0;
-      border: 1px solid var(--lightGray-color);
-
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: var(--purple-color);
+      border-color: var(--purple-color);
 
       svg {
-        width: 15px;
-        height: 15px;
-        color: var(--gray-color);
-      }
-
-      &:hover {
-        background-color: var(--purple-color);
-        border-color: var(--purple-color);
-
-        svg {
-          color: var(--white-color);
-        }
-      }
-
-      @media screen and (min-width: 2000px) {
-        width: 70px;
-        height: 70px;
-
-        margin: 0.5rem 0;
-
-        svg {
-          width: 30px;
-          height: 30px;
-        }
+        color: var(--white-color);
       }
     }
   }
@@ -349,77 +291,13 @@
 
   //Social Links button
   .app__social {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-
-    padding: 1rem;
-
-    div {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background-color: var(--white-color);
-      margin: 0.25rem 0;
-      border: 1px solid var(--lightGray-color);
-
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: var(--purple-color);
+      border-color: var(--purple-color);
 
       svg {
-        width: 15px;
-        height: 15px;
-        color: var(--gray-color);
-      }
-
-      &:hover {
-        background-color: var(--purple-color);
-        border-color: var(--purple-color);
-
-        svg {
-          color: var(--white-color);
-        }
-      }
-
-      @media screen and (min-width: 2000px) {
-        width: 70px;
-        height: 70px;
-
-        margin: 0.5rem 0;
-
-        svg {
-          width: 30px;
-          height: 30px;
-        }
+        color: var(--white-color);
       }
     }
-  }
-}
-
-.app__Header-darkmode {
-  #home {
-    background: var(--dark-primary);
-
-    // disable the default padding styles
-    .app__wrapper {
-      padding: 0;
-
-      .copyright {
-        display: none;
-      }
-    }
-  }
-  .head-text {
-    color: var(--purple-color);
-  }
-  .bold-text {
-    color: var(--purple-color);
-  }
-  .p-text {
-    color: var(--gray-color);
   }
 }

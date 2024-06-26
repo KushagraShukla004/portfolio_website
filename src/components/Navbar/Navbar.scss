@@ -7,7 +7,7 @@
 
   padding: 1rem 2rem;
   background: rgba(3, 1, 1, 0.178);
-  // box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
   backdrop-filter: blur(9px);
   -webkit-backdrop-filter: blur(9px);
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -19,10 +19,6 @@
   text-align: left;
   color: var(--purple-color);
   line-height: 1.5;
-
-  @media screen and (min-width: 2000px) {
-    font-size: 1.75rem;
-  }
 }
 /*SCSS has nesting properties so if we are using components inside the class , here navbar-logo*/
 .app__navbar-logo {
@@ -36,18 +32,13 @@
     color: var(--gray-color);
     line-height: 1.5;
 
-    @media screen and (min-width: 2000px) {
-      font-size: 1.75rem;
+    @media screen and (max-width: 400px) {
+      font-size: 1rem;
     }
   }
   img {
     width: 80px;
     height: 65px;
-
-    @media screen and (min-width: 2000px) {
-      width: 180px;
-      height: 40px;
-    }
   }
 }
 
@@ -102,15 +93,29 @@
 }
 
 .app__navbar-menu {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  position: relative;
-
   display: flex;
   justify-content: center;
   align-items: center;
+
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+
   background-color: var(--dark-theme);
+
+  &:hover {
+    border: 2px solid var(--purple-color);
+  }
+  //if screen size greater than 900px than this will apply
+  @media screen and (min-width: 900px) {
+    display: none;
+  }
+  //if screen size less than 400px than this will apply
+  @media screen and (max-width: 470px) {
+    width: 50px;
+    height: 42px;
+  }
 
   svg {
     width: 70%;
@@ -135,7 +140,6 @@
     align-items: flex-end;
     flex-direction: column;
 
-    // background: url('../../assets/bgWhite.png');
     background-color: var(--dark-theme);
     background-size: cover;
     background-repeat: repeat;
@@ -148,6 +152,9 @@
       height: 35px;
       color: var(--white-color);
       margin: 0.5rem 1rem;
+      &:hover {
+        color: var(--purple-color);
+      }
     }
 
     ul {
@@ -175,18 +182,10 @@
           transition: all 0.3s ease-in-out;
 
           &:hover {
-            color: var(--white-color);
+            color: var(--purple-color);
           }
         }
       }
     }
-
-    @media screen and (min-width: 900px) {
-      display: none;
-    }
-  }
-
-  @media screen and (min-width: 900px) {
-    display: none;
   }
 }
