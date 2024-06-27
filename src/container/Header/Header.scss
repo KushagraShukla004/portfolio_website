@@ -73,7 +73,13 @@
       color: azure;
 
       @media screen and (max-width: 757px) {
-        font-size: 1em;
+        font-size: 1.5rem;
+      }
+      @media screen and (max-width: 500px) {
+        font-size: 1.5ch;
+      }
+      @media screen and (max-width: 370px) {
+        font-size: 1ch;
       }
     }
     .typed-cursor {
@@ -259,9 +265,12 @@
       margin: 0.5rem;
     }
   }
+  @media screen and (max-width: 520px) {
+    display: none;
+  }
 }
 
-$colorBg: hsl(206, 10%, 10%);
+$colorBg: #171a1c;
 $colorOutline: #ffffff;
 $colorOutlineFade: #61676b;
 

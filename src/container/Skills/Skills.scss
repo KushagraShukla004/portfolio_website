@@ -72,11 +72,10 @@
     margin-top: 0.5rem;
   }
 
-  @media screen and (min-width: 2000px) {
-    margin: 1rem 2rem;
-
+  @media screen and (max-width: 500px) {
     p {
-      margin-top: 1rem;
+      font-weight: 900;
+      font-size: 0.5rem;
     }
   }
 }
