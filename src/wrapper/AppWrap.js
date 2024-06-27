@@ -4,21 +4,18 @@ import { NavigationDots, SocialMedia } from "../components";
 const AppWrap = (Component, idName, classNames) =>
   function HOC() {
     return (
-      <>
-        <div id={idName} className={`app__container ${classNames}`}>
-          <SocialMedia />
-          <div className="app__wrapper app__flex">
-            <Component />
+      <div id={idName} className={`app__container ${classNames}`}>
+        <SocialMedia />
+        <div className="app__wrapper app__flex">
+          <Component />
 
-            <div className="copyright">
-              <p className="p-text">@2024 Kushagra Shukla</p>
-              <p className="p-text">All rights reserved</p>
-            </div>
+          <div className="copyright">
+            <p className="p-text">@2024 Kushagra Shukla</p>
+            <p className="p-text">All rights reserved</p>
           </div>
-          <NavigationDots active={idName} />
         </div>
-        <div className="mouse"></div>
-      </>
+        <NavigationDots active={idName} />
+      </div>
     );
   };
 
