@@ -50,6 +50,11 @@
     text-transform: uppercase;
     color: var(--black-color);
   }
+  @media screen and (max-width: 350px) {
+    p {
+      font-size: calc(1rem - 10px);
+    }
+  }
 }
 
 .head-text {
@@ -164,10 +169,6 @@
   .app__social {
     display: none;
   }
-
-  .copyright {
-    padding: 2rem;
-  }
 }
 
 //dark mode
@@ -194,12 +195,10 @@
   }
   //Social Links button
   .app__social {
-    &:hover {
-      background-color: var(--purple-color);
-      border-color: var(--purple-color);
-
-      svg {
-        color: var(--white-color);
+    svg {
+      &:hover {
+        background-color: var(--purple-color);
+        border-color: var(--purple-color);
       }
     }
   }
@@ -291,12 +290,10 @@
 
   //Social Links button
   .app__social {
-    &:hover {
-      background-color: var(--purple-color);
-      border-color: var(--purple-color);
-
-      svg {
-        color: var(--white-color);
+    svg {
+      &:hover {
+        background-color: var(--purple-color);
+        border-color: var(--purple-color);
       }
     }
   }
