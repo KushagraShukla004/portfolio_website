@@ -7,9 +7,9 @@ const ResumeButton = () => {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
       event: "resume_download",
-      category: "Resume",
-      action: "Download",
-      label: "Resume PDF",
+      event_category: "Resume",
+      event_action: "Download",
+      event_label: "Resume PDF",
     });
   };
 
