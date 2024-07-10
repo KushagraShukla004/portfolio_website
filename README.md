@@ -4,7 +4,7 @@ This project is a React-based portfolio website integrated with Sanity.io for re
 
 ## Click the link below to see the live demo:
 
-- [My Portfolio]https://kushagrashukla.netlify.app/
+- ![My Portfolio](https://kushagrashukla.netlify.app/)
 
 ## Getting Started
 
