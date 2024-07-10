@@ -8,6 +8,16 @@ This project is a React-based portfolio website integrated with Sanity.io for re
 
 ## Getting Started
 
+**NOTE**: For integrating the backend you have to add [portfolio_backend](https://github.com/KushagraShukla004/portfolio_backend) **repo** .
+
+## Folder Structure
+
+```
+   portfolio
+├── portfolio_website
+└── portfolio_backend
+```
+
 1. Clone the repository:
 
    ```sh
