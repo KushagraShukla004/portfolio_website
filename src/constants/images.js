@@ -27,7 +27,7 @@ import me_bg_rem from "../assets/me_bg_rem.png";
 import pattern_round from "../assets/pattern_round.png";
 
 const resumeLink =
-  "https://drive.google.com/file/d/1tj-4TdeYfQVPkm5iYrex0xTlCmkAwqdc/view?usp=sharing";
+  "https://drive.google.com/drive/folders/1Mq_d_0J3QItvB2RLR8YiHIIkhk1-Erdm?usp=sharing";
 
 export default {
   me_bg_rem,
