@@ -16,7 +16,7 @@ const ResumeButton = () => {
   return (
     <a
       id="resume-download"
-      href={images.resume}
+      href={images.resumeLink}
       alt="Download Resume"
       onClick={handleResumeDownload}
       target="_blank"

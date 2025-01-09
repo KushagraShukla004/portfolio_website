@@ -23,10 +23,11 @@ import main from "../assets/main.png";
 import pattern from "../assets/pattern.png";
 import circle from "../assets/circle.svg";
 import logo from "../assets/logo2.png";
-
-import resume from "../assets/Kushagra Shukla_Resume.pdf";
 import me_bg_rem from "../assets/me_bg_rem.png";
 import pattern_round from "../assets/pattern_round.png";
+
+const resumeLink =
+  "https://drive.google.com/file/d/1tj-4TdeYfQVPkm5iYrex0xTlCmkAwqdc/view?usp=sharing";
 
 export default {
   me_bg_rem,
@@ -52,5 +53,5 @@ export default {
   logo,
   main,
   pattern,
-  resume,
+  resumeLink,
 };
